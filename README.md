@@ -19,7 +19,7 @@
 3. GitFlow
   * 长期存在有1个分支 `master`
   * 开发时应当从 `master` 分支 `checkout` 出新分支, 命名例如: `feature/some-feature` 或者 `fixbug/some-bug` 单词以中划线连接命名, 并且已 scope 开头, 参考: [Git 分支管理策略](http://www.ruanyifeng.com/blog/2012/07/git.html)
-  * 不可以直接向 `master` 直接提交代码, 开发分支在开发完成后向 `develop` 分支提交 `Merge Request`, 由 @云北、@逸翾 review 后可合并
+  * 不可以直接向 `master` 直接提交代码, 开发分支在开发完成后向 `master` 分支提交 `Merge Request`, 由 @云北、@枫余 review 后可合并
   * 注意 git commit message 的规范性
 
 ## 其他
